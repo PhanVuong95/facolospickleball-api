@@ -2,9 +2,9 @@
   "name": "api",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon ./src/app.js --exec babel-node -e js"
+    "start": "nodemon ./src/index.js --exec babel-node -e js"
   },
   "keywords": [],
   "author": "",
