@@ -14,7 +14,9 @@ app.use(express.json());
 // Connect to database
 mongoose
   .set("strictQuery", true)
-  .connect("mongodb://localhost:27017/test")
+  .connect(
+    "mongodb+srv://chiatayroiemhanhphucnhe:9fXRi93noHE4cgQU@cluster0.7vxwvfv.mongodb.net/facolospickleball-api?retryWrites=true&w=majority&appName=Cluster0"
+  )
   .then(() => console.log("Kết nối db thành công"))
   .catch((error) => console.log(error));
 
